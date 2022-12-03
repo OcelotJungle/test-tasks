@@ -1,0 +1,27 @@
+#content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: rgb(200, 200, 200);
+    color: rgb(0, 0, 0);
+}
+
+button:hover {
+    background-color: rgb(180, 180, 180);
+}
+
+button.inactive {
+    background-color: rgb(150, 150, 150);
+    color: rgb(120, 120, 120);
+}
+
+@media (orientation: portrait) {
+    #content {
+        height: 85vh;
+    }
+}
