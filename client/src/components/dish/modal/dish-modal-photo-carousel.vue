@@ -90,16 +90,16 @@ export default {
   },
 
   methods: {
+    toggle(index) {
+      this.current = index;
+    },
+    
     previous() {
       this.toggle(this.current === 0 ? this.count - 1 : this.current - 1);
     },
 
     next() {
       this.toggle(this.current === this.count - 1 ? 0 : this.current + 1);
-    },
-
-    toggle(index) {
-      this.current = index;
     },
 
     remove(index) {
@@ -110,7 +110,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .carousel-indicators {
   transform: scale(4);
 }

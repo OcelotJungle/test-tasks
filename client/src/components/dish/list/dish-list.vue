@@ -29,9 +29,9 @@
 </template>
 
 <script>
-import DishListItem from "./dish-list-item.vue";
-import DishModal from "../modal/dish-modal.vue";
 import createEmptyDish from "@/utils/create-empty-dish";
+import DishListItem from "./dish-list-item.vue";
+import { DishModal } from "../modal";
 import { computed } from "vue";
 
 export default {
@@ -83,8 +83,8 @@ export default {
       this.dishes.push(dish);
     },
 
-    update(id, dish) {
-      this.dishes = this.dishes.map(d => d.id === id ? dish : d);
+    update(dish) {
+      this.dishes = this.dishes.map(d => d.id === dish.id ? dish : d);
     },
 
     remove(id) {

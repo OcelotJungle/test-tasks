@@ -9,9 +9,9 @@
           :is="content"
           :dish="dish"
           @close="close"
-          @create="create"
-          @update="update"
-          @remove="remove"
+          @create="$emit('create', $event)"
+          @update="$emit('update', $event)"
+          @remove="$emit('remove', $event)"
         >
           <template #close-button>
             <button
@@ -27,13 +27,15 @@
 </template>
 
 <script>
-import DishModalContentDefault from "./dish-modal-content/dish-modal-content-default.vue";
-import DishModalContentEditable from "./dish-modal-content/dish-modal-content-editable.vue";
+import {
+  DishModalContentDefault as Default,
+  DishModalContentEditable as Editable
+} from "./dish-modal-content";
 
 export default {
   components: {
-    DishModalContentDefault,
-    DishModalContentEditable
+    Default,
+    Editable
   },
 
   inject: ["isEditMode"],
@@ -46,25 +48,13 @@ export default {
 
   data() {
     return {
-      content: this.isEditMode ? "dish-modal-content-editable" : "dish-modal-content-default"
+      content: this.isEditMode ? "editable" : "default"
     };
   },
 
   methods: {
     close() {
       this.$emit("close");
-    },
-
-    create(...data) {
-      this.$emit("create", ...data);
-    },
-
-    update(...data) {
-      this.$emit("update", ...data);
-    },
-
-    remove(...data) {
-      this.$emit("remove", ...data);
     }
   }
 }

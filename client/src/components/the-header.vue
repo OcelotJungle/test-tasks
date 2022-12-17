@@ -15,7 +15,7 @@
         <button
           v-if="!isAuthenticated"
           class="btn btn-outline-secondary btn-lg"
-          @click="toggleAuthModal"
+          @click="openAuthModal"
         >Log in</button>
         <button
           v-if="isAuthenticated"
@@ -33,11 +33,11 @@ export default {
     isAuthenticated: Boolean
   },
 
-  emits: ["toggle-auth-modal", "logout"],
+  emits: ["open-auth-modal", "logout"],
 
   methods: {
-    toggleAuthModal() {
-      this.$emit("toggle-auth-modal");
+    openAuthModal() {
+      this.$emit("open-auth-modal");
     },
 
     logout() {

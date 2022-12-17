@@ -1,16 +1,22 @@
 <template>
-  <the-header
-    :isAuthenticated="isAuthenticated"
-    @toggle-auth-modal="toggleAuthModal"
-    @logout="logout"
-  />
-  <router-view />
-  <auth-modal
-    v-if="isAuthModalOpened"
-    @close-auth-modal="toggleAuthModal"
-    @authenticate="authenticate"
-  />
-  <div class="modal-backdrop fade" />
+  <div
+    class="no-outline"
+    tabindex="-1"
+    @keydown.esc="closeAuthModal"
+  >
+    <the-header
+      :isAuthenticated="isAuthenticated"
+      @open-auth-modal="openAuthModal"
+      @logout="logout"
+    />
+    <router-view />
+    <auth-modal
+      v-if="isAuthModalOpened"
+      @close-auth-modal="closeAuthModal"
+      @authenticate="authenticate"
+    />
+    <div class="modal-backdrop fade" />
+  </div>
 </template>
 
 <script>
@@ -37,23 +43,23 @@ export default {
   },
   
   methods: {
-    toggleAuth() {
-      this.isAuthenticated = !this.isAuthenticated;
+    openAuthModal() {
+      this.isAuthModalOpened = true;
     },
 
-    toggleAuthModal() {
-      this.isAuthModalOpened = !this.isAuthModalOpened;
-    },
-
-    logout() {
-      this.isAuthenticated = false;
-      localStorage.removeItem("jwt");
+    closeAuthModal() {
+      this.isAuthModalOpened = false;
     },
 
     authenticate(jwt) {
       localStorage.setItem("jwt", jwt);
       this.isAuthenticated = true;
-    } 
+    },
+
+    logout() {
+      localStorage.removeItem("jwt");
+      this.isAuthenticated = false;
+    }
   },
 }
 </script>

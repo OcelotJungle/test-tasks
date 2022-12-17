@@ -9,7 +9,7 @@
       <slot name="close-button" />
     </div>
     <div class="modal-body">
-      <dish-modal-photo-carousel
+      <photo-carousel
         :photos="this.photos"
         @remove-photo="removePhoto"
       />
@@ -83,18 +83,13 @@
 </template>
 
 <script>
-import DishModalPhotoCarousel from "../dish-modal-photo-carousel.vue";
+import PhotoCarousel from "../dish-modal-photo-carousel.vue";
 import getAuthorizedHeaders from "@/utils/get-authorized-headers";
 import handleRequestError from "@/utils/handle-request-error";
 
 export default {
-  components: {
-    DishModalPhotoCarousel
-  },
-
-  props: {
-    dish: Object
-  },
+  components: { PhotoCarousel },
+  props: { dish: Object },
 
   data() {
     return {
@@ -157,7 +152,7 @@ export default {
       } else {
         request = this.axios
           .put(`/api/menu/${this.id}`, body, headers)
-          .then(({ data }) => this.$emit("update", this.id, data));
+          .then(({ data }) => this.$emit("update", data));
       }
 
       request

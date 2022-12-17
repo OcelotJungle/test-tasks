@@ -8,10 +8,10 @@
         <div class="modal-header">
           <h3 class="modal-title">Authentication</h3>
           <button
-              type="button"
-              class="btn-close"
-              @click="close"
-            />
+            type="button"
+            class="btn-close"
+            @click="close"
+          />
         </div>
         <form
           class="mt-4"
@@ -64,10 +64,8 @@ export default {
 
       this.axios
         .post("/api/auth/authenticate", creds)
-        .then(({ data }) => {
-          this.$emit("authenticate", data);
-          this.$emit("close-auth-modal");
-        })
+        .then(({ data }) => this.$emit("authenticate", data))
+        .then(() => this.close())
         .catch(error => console.error(error));
     },
 

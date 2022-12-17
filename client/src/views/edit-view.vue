@@ -6,12 +6,7 @@
 import DishList from "@/components/dish/list/dish-list.vue"
 
 export default {
-  components: {
-    DishList
-  },
-
-  provide: {
-    isEditMode: true
-  }
+  components: { DishList },
+  provide: { isEditMode: true }
 }
 </script>
