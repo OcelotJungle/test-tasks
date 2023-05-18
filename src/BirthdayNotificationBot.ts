@@ -52,6 +52,6 @@ export default class BirthdayNotificationBot {
     }
 
     private buildListOfStaff(staff: Staff) {
-        return staff.map(({ name, email }) => `${name} (${email})`).join("\n");
+        return staff.map(({ name, email }) => `- ${name} (${email})`).join("\n");
     }
 }
