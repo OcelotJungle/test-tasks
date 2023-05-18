@@ -6,7 +6,7 @@ import { Employee, Manager } from "./models";
 
 type Staff = Employee[];
 
-export default class BirthdaySlackBot {
+export default class BirthdayNotificationBot {
     private sendMessage: SendMessageFn;
 
     constructor(
