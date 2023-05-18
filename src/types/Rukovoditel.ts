@@ -1,4 +1,4 @@
-import Sotrudniki from "./Sotrudniki";
+import { Sotrudniki } from ".";
 
 type Rukovoditel = {
     rukovoditel: string,

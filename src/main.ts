@@ -1,22 +1,39 @@
 import dotenv from "dotenv";
 dotenv.config();
 
-if (!process.env.SCHEDULE_CRON_EXPRESSION) throw new Error("Schedule cron expression not specified");
-
 import cron from "node-cron";
-import MockApi from "./api/MockApi";
-import FetchApi from "./api/FetchApi";
+
+const { SCHEDULE_CRON_EXPRESSION: cronSchedule } = process.env;
+
+if (!cronSchedule) throw new Error("Schedule cron expression not specified");
+if (!cron.validate(cronSchedule)) throw new Error("Schedule cron expression is invalid");
+
 import BirthdaySlackBot from "./BirthdaySlackBot";
+import { FetchApi, MockApi } from "./api";
+import { SlackNotifier, MockNotifier } from "./notifiers";
+
+function getBot(dev: boolean) {
+    if (!dev) {
+        const {
+            API_URL,
+            SLACK_TOKEN,
+            SLACK_CHANNEL
+        } = process.env;
+
+        return new BirthdaySlackBot(
+            new FetchApi(API_URL),
+            new SlackNotifier(SLACK_TOKEN, SLACK_CHANNEL)
+        );
+    }
+
+    const { MOCK_DATA_FILENAME } = process.env;
+    return new BirthdaySlackBot(new MockApi(MOCK_DATA_FILENAME), new MockNotifier());
+}
 
 const dev = process.env.NODE_ENV?.trim() === "development";
+const bot = getBot(dev);
 
-const bot = new BirthdaySlackBot(
-    dev ? new MockApi(process.env.MOCK_DATA_FILENAME) : new FetchApi(process.env.API_URL),
-    process.env.SLACK_TOKEN,
-    process.env.SLACK_CHANNEL
-)
+cron.schedule(cronSchedule, bot.run.bind(bot), { runOnInit: dev });
 
-cron.schedule(process.env.SCHEDULE_CRON_EXPRESSION, bot.run.bind(bot));
-
-console.log(`Birthday Slack Bot has successfully started!${dev ? " (dev mode)" : ""}`);
-console.log(`Schedule cron expression: ${process.env.SCHEDULE_CRON_EXPRESSION}`);
+console.log(["Birthday Slack Bot has successfully started!", dev ? "(dev mode)" : null].join(" "));
+console.log(`Schedule cron expression: ${cronSchedule}`);

@@ -1,4 +1,4 @@
-import Manager from "../models/Manager";
+import { Manager } from "../models";
 
 interface Api {
     fetch(): Promise<Manager[]>

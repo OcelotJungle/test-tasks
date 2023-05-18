@@ -1,4 +1,4 @@
-import MaybeString from "./types/MaybeString"
+import { MaybeString } from "./types"
 
 declare global {
     namespace NodeJS {

@@ -1,9 +1,9 @@
-import { convertApiFormatToModels } from "../converters/api-format-to-models";
-import Manager from "../models/Manager";
-import MaybeString from "../types/MaybeString";
-import Rukovoditel from "../types/Rukovoditel";
-import Api from "./Api.interface";
 import axios from "axios";
+import { convertApiFormatToModels } from "../converters/api-format-to-models";
+import { Api } from ".";
+import { MaybeString, Rukovoditel } from "../types";
+import { Manager } from "../models";
+
 
 class FetchApi implements Api {
     private url: string;

@@ -1,9 +1,8 @@
 import { readFile } from "fs/promises";
-import Manager from "../models/Manager";
-import Api from "./Api.interface";
-import Rukovoditel from "../types/Rukovoditel";
 import { convertApiFormatToModels } from "../converters/api-format-to-models";
-import MaybeString from "../types/MaybeString";
+import { Api } from ".";
+import { Manager } from "../models";
+import { MaybeString, Rukovoditel } from "../types";
 
 class MockApi implements Api {
     private cache?: Manager[];

@@ -1,4 +1,4 @@
-import Sotrudnik from "./Sotrudnik";
+import { Sotrudnik } from ".";
 
 type Sotrudniki = { [key: `sotrudnik${number}`]: Sotrudnik };
 

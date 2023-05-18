@@ -1,7 +1,6 @@
 import moment from "moment";
-import Manager from "../models/Manager";
-import Rukovoditel from "../types/Rukovoditel";
-import Sotrudniki from "../types/Sotrudniki";
+import { Manager } from "../models";
+import { Rukovoditel, Sotrudniki } from "../types";
 
 function convertModelsToApiFormat(mockData: Manager[]) {
     const result: Rukovoditel[] = [];

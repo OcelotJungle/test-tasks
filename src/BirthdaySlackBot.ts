@@ -1,9 +1,8 @@
 import moment from "moment";
-import Api from "./api/Api.interface";
-import Employee from "./models/Employee";
-import Manager from "./models/Manager";
-import { SendMessageFn, sendMessageFactory } from "./slack/send-message";
-import MaybeString from "./types/MaybeString";
+import { Api } from "./api";
+import { Notifier } from "./notifiers";
+import { SendMessageFn } from "./types";
+import { Employee, Manager } from "./models";
 
 type Staff = Employee[];
 
@@ -12,13 +11,9 @@ export default class BirthdaySlackBot {
 
     constructor(
         private readonly api: Api,
-        token: MaybeString,
-        channel: MaybeString
+        notifier: Notifier,
     ) {
-        if (!token) throw new Error("Slack token not specified");
-        if (!channel) throw new Error("Slack channel not specified");
-
-        this.sendMessage = sendMessageFactory(token, channel);
+        this.sendMessage = notifier.sendMessageFactory();
     }
 
     async run() {
@@ -49,11 +44,11 @@ export default class BirthdaySlackBot {
 
     private getMessageBody(todayBirthdayStaff: Staff) {
         if (todayBirthdayStaff.length) {
-            return "Сегодня нет сотрудников, у которых день рождения.";
+            const listOfStaff = this.buildListOfStaff(todayBirthdayStaff);
+            return `Список сотрудников, у которых сегодня день рождения:\n${listOfStaff}`;
         }
-    
-        const listOfStaff = this.buildListOfStaff(todayBirthdayStaff);
-        return `Список сотрудников, у которых сегодня день рождения:\n${listOfStaff}`;
+        
+        return "Сегодня нет сотрудников, у которых день рождения.";
     }
 
     private buildListOfStaff(staff: Staff) {

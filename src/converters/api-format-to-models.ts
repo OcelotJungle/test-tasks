@@ -1,8 +1,6 @@
 import moment from "moment";
-import Employee from "../models/Employee";
-import Manager from "../models/Manager";
-import Rukovoditel from "../types/Rukovoditel";
-import Sotrudnik from "../types/Sotrudnik";
+import { Rukovoditel, Sotrudnik } from "../types";
+import { Employee, Manager } from "../models";
 
 function convertApiFormatToModels(data: Rukovoditel[]) {
     return data.map(convertRukovoditelToManager);
@@ -19,7 +17,7 @@ function convertSotrudnikToEmployee({ name, email, birthday }: Sotrudnik) {
     return new Employee(
         name,
         email,
-        moment(birthday).toDate()
+        moment(birthday, "DD.MM.YYYY").toDate()
     );
 }
 

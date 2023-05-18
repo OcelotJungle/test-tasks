@@ -1,4 +1,4 @@
-import Employee from "./Employee";
+import { Employee } from ".";
 
 export default class Manager {
     constructor(

@@ -1,10 +1,14 @@
+import dotenv from "dotenv";
+dotenv.config();
+
+const { MOCK_DATA_FILENAME } = process.env;
+
+if (!MOCK_DATA_FILENAME) throw new Error("Mock data filename not specified");
+
 import moment from "moment";
-import Employee from "../models/Employee";
-import Manager from "../models/Manager";
 import { writeFile } from "fs/promises";
 import { convertModelsToApiFormat } from "../converters/models-to-api-format";
-
-const RESULT_FILENAME = "mock-data.json"
+import { Employee, Manager } from "../models";
 
 const MANAGER_NAMES = ["John", "Pol"];
 const EMAIL_DOMAIN = "foxford.ru";
@@ -25,7 +29,7 @@ async function generateMockData() {
 
     const result: Manager[] = MANAGER_NAMES.map(managerName => new Manager(getEmail(managerName), staff));
 
-    await writeFile(RESULT_FILENAME, JSON.stringify(convertModelsToApiFormat(result), null, 4));
+    await writeFile(MOCK_DATA_FILENAME!, JSON.stringify(convertModelsToApiFormat(result), null, 4));
 
     console.log("Mock data successfully generated!");
 }
