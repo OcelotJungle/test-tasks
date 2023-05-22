@@ -1,0 +1,1714 @@
+[
+  {
+    "id": 120,
+    "name": "Акушер-гинеколог",
+    "description": null,
+    "alias": "akusher-ginekolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 127,
+    "name": "Алголог",
+    "description": null,
+    "alias": "algolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 29,
+    "name": "Аллерголог",
+    "description": null,
+    "alias": "allergolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 176,
+    "name": "Аллерголог-иммунолог",
+    "description": null,
+    "alias": "allergolog-immunolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 180,
+    "name": "Амбулаторно-поликлиническое отделение",
+    "description": null,
+    "alias": "ambulatorno-poliklinicheskoe-otdelenie",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 114,
+    "name": "Ангиохирург",
+    "description": null,
+    "alias": "angiohirurg",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 56,
+    "name": "Андролог",
+    "description": null,
+    "alias": "androlog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 65,
+    "name": "Анестезиолог",
+    "description": null,
+    "alias": "anesteziolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 342,
+    "name": "Анестезиолог-реаниматолог",
+    "description": null,
+    "alias": "anesteziolog-reanimatolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 326,
+    "name": "Антивозрастная терапия (anti-age)",
+    "description": null,
+    "alias": "antivozrastnaya-terapiya-anti-age",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 295,
+    "name": "Аритмолог",
+    "description": null,
+    "alias": "aritmolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 122,
+    "name": "Аюрведа",
+    "description": null,
+    "alias": "ajurveda",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 100,
+    "name": "Бактериолог",
+    "description": null,
+    "alias": "bakteriolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 49,
+    "name": "Венеролог",
+    "description": null,
+    "alias": "venerolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 83,
+    "name": "Вертебролог",
+    "description": null,
+    "alias": "vertebrolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 101,
+    "name": "Вирусолог",
+    "description": null,
+    "alias": "virusolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 351,
+    "name": "Витреальный хирург",
+    "description": null,
+    "alias": "vitrealnyj-hirurg",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 218,
+    "name": "Врач компьютерной томографии",
+    "description": null,
+    "alias": "vrach-kompyuternoj-tomografii",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 94,
+    "name": "Врач лабораторной диагностики",
+    "description": null,
+    "alias": "vrach-laboratornoj-diagnostiki",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 117,
+    "name": "Врач ЛФК",
+    "description": null,
+    "alias": "vrach-lfk",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 129,
+    "name": "Врач МРТ-диагностики",
+    "description": null,
+    "alias": "vrach-mrt-diagnostiki",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 130,
+    "name": "Врач общей практики",
+    "description": null,
+    "alias": "vrach-obshei-praktiki",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 364,
+    "name": "Врач по паллиативной медицинской помощи",
+    "description": null,
+    "alias": "vrach-po-palliativnoj-medicinskoj-pomoshchi",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 174,
+    "name": "Врач практической медицины",
+    "description": null,
+    "alias": "vrach-prakticheskoj-mediciny",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 14,
+    "name": "Врач УЗ-диагностики (УЗИ)",
+    "description": null,
+    "alias": "vrach-uz-diagnostiki",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 111,
+    "name": "Врач функциональной диагностики",
+    "description": null,
+    "alias": "vrach-funkcionalnoj-diagnostiki",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 22,
+    "name": "Гастроэнтеролог",
+    "description": null,
+    "alias": "gastroenterolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 102,
+    "name": "Гематолог",
+    "description": null,
+    "alias": "gematolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 97,
+    "name": "Генетик",
+    "description": null,
+    "alias": "genetik",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 37,
+    "name": "Гепатолог",
+    "description": null,
+    "alias": "gepatolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 294,
+    "name": "Гериатр",
+    "description": null,
+    "alias": "geriatr",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 296,
+    "name": "Гериатр-терапевт",
+    "description": null,
+    "alias": "geriatr-terapevt",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 106,
+    "name": "Геронтолог",
+    "description": null,
+    "alias": "gerontolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 25,
+    "name": "Гигиенист",
+    "description": null,
+    "alias": "gigienist",
+    "isDental": true,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 20,
+    "name": "Гинеколог",
+    "description": null,
+    "alias": "ginekolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 331,
+    "name": "Гинеколог-эндокринолог",
+    "description": null,
+    "alias": "ginekolog-endokrinolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 69,
+    "name": "Гирудотерапевт",
+    "description": null,
+    "alias": "girudoterapevt",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 345,
+    "name": "Главный врач",
+    "description": null,
+    "alias": "glavnyj-vrach",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 63,
+    "name": "Гомеопат",
+    "description": null,
+    "alias": "gomeopat",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 123,
+    "name": "Дерматовенеролог",
+    "description": null,
+    "alias": "dermatovenerolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 50,
+    "name": "Дерматолог",
+    "description": null,
+    "alias": "dermatolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 175,
+    "name": "Детский акушер-гинеколог",
+    "description": null,
+    "alias": "detskiy-akusher-ginekolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 136,
+    "name": "Детский аллерголог-иммунолог",
+    "description": null,
+    "alias": "detskij-allergolog-immunolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 164,
+    "name": "Детский андролог",
+    "description": null,
+    "alias": "detskij-androlog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 341,
+    "name": "Детский аритмолог",
+    "description": null,
+    "alias": "detskij-aritmolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 95,
+    "name": "Детский врач общей практики",
+    "description": null,
+    "alias": "detskiy-vrach-obshchey-praktiki",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 142,
+    "name": "Детский врач УЗ-диагностики (УЗИ)",
+    "description": null,
+    "alias": "detskij-vrach-uz-diagnostiki",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 168,
+    "name": "Детский врач функциональной диагностики",
+    "description": null,
+    "alias": "detskiy-vrach-funkcionalnoy-diagnostiki",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 137,
+    "name": "Детский гастроэнтеролог",
+    "description": null,
+    "alias": "detskij-gastroenterolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 158,
+    "name": "Детский гематолог",
+    "description": null,
+    "alias": "detskij-gematolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 119,
+    "name": "Детский гинеколог",
+    "description": null,
+    "alias": "detskij-ginekolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 169,
+    "name": "Детский дерматовенеролог",
+    "description": null,
+    "alias": "detskij-dermatovenerolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 144,
+    "name": "Детский дерматолог",
+    "description": null,
+    "alias": "detskij-dermatolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 128,
+    "name": "Детский кардиолог",
+    "description": null,
+    "alias": "detskij-kardiolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 153,
+    "name": "Детский косметолог",
+    "description": null,
+    "alias": "detskij-kosmetolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 165,
+    "name": "Детский массажист",
+    "description": null,
+    "alias": "detskij-massagist",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 139,
+    "name": "Детский невролог",
+    "description": null,
+    "alias": "detskij-nevrolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 304,
+    "name": "Детский нейропсихолог",
+    "description": null,
+    "alias": "detskij-nejropsiholog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 327,
+    "name": "Детский нейрохирург",
+    "description": null,
+    "alias": "detskiy-neyrohirurg",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 96,
+    "name": "Детский нефролог",
+    "description": null,
+    "alias": "detskiy-nefrolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 328,
+    "name": "Детский онколог",
+    "description": null,
+    "alias": "detskiy-onkolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 131,
+    "name": "Детский ортопед",
+    "description": null,
+    "alias": "detskij-ortoped",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 309,
+    "name": "Детский остеопат",
+    "description": null,
+    "alias": "detskij-osteopat",
+    "isDental": true,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 141,
+    "name": "Детский оториноларинголог (ЛОР)",
+    "description": null,
+    "alias": "detskij-otorinolaringolog-lor",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 146,
+    "name": "Детский офтальмолог",
+    "description": null,
+    "alias": "detskij-oftalmolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 154,
+    "name": "Детский психиатр",
+    "description": null,
+    "alias": "detskij-psihiatr",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 155,
+    "name": "Детский психолог",
+    "description": null,
+    "alias": "detskij-psiholog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 329,
+    "name": "Детский психотерапевт",
+    "description": null,
+    "alias": "detskiy-psihoterapevt",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 172,
+    "name": "Детский пульмонолог",
+    "description": null,
+    "alias": "detskiy-pulmonolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 171,
+    "name": "Детский ревматолог",
+    "description": null,
+    "alias": "detskiy-revmatolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 138,
+    "name": "Детский рентгенолог",
+    "description": null,
+    "alias": "detskij-rentgenolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 173,
+    "name": "Детский стоматолог",
+    "description": null,
+    "alias": "detskiy-stomatolog",
+    "isDental": true,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 149,
+    "name": "Детский стоматолог-ортодонт",
+    "description": null,
+    "alias": "detskij-stomatolog-ortodont",
+    "isDental": true,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 167,
+    "name": "Детский стоматолог-ортопед",
+    "description": null,
+    "alias": "detskiy-stomatolog-ortoped",
+    "isDental": true,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 151,
+    "name": "Детский стоматолог-пародонтолог",
+    "description": null,
+    "alias": "detskij-stomatolog-parodontolog",
+    "isDental": true,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 85,
+    "name": "Детский стоматолог-терапевт",
+    "description": null,
+    "alias": "stomatolog-detskij",
+    "isDental": true,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 134,
+    "name": "Детский стоматолог-хирург",
+    "description": null,
+    "alias": "detskij-stomatolog-hirurg",
+    "isDental": true,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 284,
+    "name": "Детский травматолог",
+    "description": null,
+    "alias": "detskij-travmatolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 140,
+    "name": "Детский травматолог-ортопед",
+    "description": null,
+    "alias": "detskij-travmatolog-ortoped",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 147,
+    "name": "Детский уролог",
+    "description": null,
+    "alias": "detskij-urolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 170,
+    "name": "Детский уролог-андролог",
+    "description": null,
+    "alias": "detskij-urolog-androlog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 150,
+    "name": "Детский физиотерапевт",
+    "description": null,
+    "alias": "detskij-fizioterapevt",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 148,
+    "name": "Детский хирург",
+    "description": null,
+    "alias": "detskij-hirurg",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 143,
+    "name": "Детский эндокринолог",
+    "description": null,
+    "alias": "detskij-endokrinolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 145,
+    "name": "Детский эндоскопист",
+    "description": null,
+    "alias": "detskij-endoskopist",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 70,
+    "name": "Диетолог",
+    "description": null,
+    "alias": "dietolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 346,
+    "name": "Заведующий клинико-диагностическим отделением",
+    "description": null,
+    "alias": "zaveduyushchij-kliniko-diagnosticheskim-otdeleniem",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 347,
+    "name": "Заведующий операционным блоком",
+    "description": null,
+    "alias": "zaveduyushchij-operacionnym-blokom",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 348,
+    "name": "Заведующий стационаром",
+    "description": null,
+    "alias": "zaveduyushchij-stacionarom",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 357,
+    "name": "Иглорефлексотерапевт",
+    "description": null,
+    "alias": "iglorefleksoterapevt",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 28,
+    "name": "Иммунолог",
+    "description": null,
+    "alias": "immunolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 24,
+    "name": "Имплантолог",
+    "description": null,
+    "alias": "implantolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 160,
+    "name": "Инструктор-методист ЛФК",
+    "description": null,
+    "alias": "instruktor-metodist-lfk",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 61,
+    "name": "Инфекционист",
+    "description": null,
+    "alias": "infekcionist",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 39,
+    "name": "Кардиолог",
+    "description": null,
+    "alias": "kardiolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 297,
+    "name": "Кардиолог-аритмолог",
+    "description": null,
+    "alias": "kardiolog-aritmolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 88,
+    "name": "Кардиохирург",
+    "description": null,
+    "alias": "kardiohirurg",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 90,
+    "name": "Кинезиолог",
+    "description": null,
+    "alias": "kineziolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 292,
+    "name": "Клинический фармаколог",
+    "description": null,
+    "alias": "klinicheskij-farmakolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 108,
+    "name": "Колопроктолог",
+    "description": null,
+    "alias": "koloproktolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 51,
+    "name": "Косметолог",
+    "description": null,
+    "alias": "kosmetolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 293,
+    "name": "Косметолог-эстетист",
+    "description": null,
+    "alias": "kosmetolog-estetist",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 121,
+    "name": "Криолог",
+    "description": null,
+    "alias": "kriolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 353,
+    "name": "Лазерный хирург",
+    "description": null,
+    "alias": "lazernyj-hirurg",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 93,
+    "name": "Лимфолог",
+    "description": null,
+    "alias": "limfolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 86,
+    "name": "Логопед",
+    "description": null,
+    "alias": "logoped",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 367,
+    "name": "Лор-Хирург",
+    "description": null,
+    "alias": "lor-hirurg",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 59,
+    "name": "Маммолог",
+    "description": null,
+    "alias": "mammolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 81,
+    "name": "Мануальный терапевт",
+    "description": null,
+    "alias": "manualnyj-terapevt-manualist",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 55,
+    "name": "Массажист",
+    "description": null,
+    "alias": "massazhist",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 110,
+    "name": "Медицинская сестра",
+    "description": null,
+    "alias": "medicinskaja-sestra",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 349,
+    "name": "Медицинская сестра аппаратного кабинета",
+    "description": null,
+    "alias": "medicinskaya-sestra-apparatnogo-kabineta",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 152,
+    "name": "Медицинский брат",
+    "description": null,
+    "alias": "medicinskij-brat",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 305,
+    "name": "Миколог",
+    "description": null,
+    "alias": "mikolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 290,
+    "name": "Миофункциональный терапевт",
+    "description": null,
+    "alias": "miofunkcionalnyj-terapevt",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 53,
+    "name": "Нарколог",
+    "description": null,
+    "alias": "narkolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 12,
+    "name": "Невролог",
+    "description": null,
+    "alias": "nevrolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 68,
+    "name": "Невропатолог",
+    "description": null,
+    "alias": "nevropatolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 285,
+    "name": "Нейропсихолог",
+    "description": null,
+    "alias": "neyropsiholog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 332,
+    "name": "Нейрофизиолог",
+    "description": null,
+    "alias": "neyrofiziolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 79,
+    "name": "Нейрохирург",
+    "description": null,
+    "alias": "nejrohirurg",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 67,
+    "name": "Неонатолог",
+    "description": null,
+    "alias": "neonatolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 38,
+    "name": "Нефролог",
+    "description": null,
+    "alias": "nefrolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 333,
+    "name": "Нутрициолог",
+    "description": null,
+    "alias": "nutriciolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 62,
+    "name": "Озонотерапевт",
+    "description": null,
+    "alias": "ozonoterapevt",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 47,
+    "name": "Онколог",
+    "description": null,
+    "alias": "onkolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 335,
+    "name": "Онколог-гинеколог",
+    "description": null,
+    "alias": "onkolog-ginekolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 334,
+    "name": "Онколог-дерматолог",
+    "description": null,
+    "alias": "onkolog-dermatolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 157,
+    "name": "Онколог-маммолог",
+    "description": null,
+    "alias": "onkolog-mammolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 337,
+    "name": "Онколог-отоларинголог",
+    "description": null,
+    "alias": "onkolog-otolaringolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 338,
+    "name": "Онколог-уролог",
+    "description": null,
+    "alias": "onkolog-urolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 336,
+    "name": "Онколог-хирург",
+    "description": null,
+    "alias": "onkolog-hirurg",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 112,
+    "name": "Оптометрист",
+    "description": null,
+    "alias": "optometrist",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 289,
+    "name": "Организация здравоохранения",
+    "description": null,
+    "alias": "organizaciya-zdravoohraneniya",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 355,
+    "name": "Ортокератолог",
+    "description": null,
+    "alias": "ortokeratolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 27,
+    "name": "Ортопед",
+    "description": null,
+    "alias": "ortoped",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 40,
+    "name": "Остеопат",
+    "description": null,
+    "alias": "osteopat",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 48,
+    "name": "Оториноларинголог (ЛОР)",
+    "description": null,
+    "alias": "otorinolaringolog-lor",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 75,
+    "name": "Офтальмолог",
+    "description": null,
+    "alias": "oftalmolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 354,
+    "name": "Офтальмолог функциональной диагностики",
+    "description": null,
+    "alias": "oftalmolog-funkcionalnoj-diagnostiki",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 126,
+    "name": "Офтальмохирург",
+    "description": null,
+    "alias": "oftalmohirurg",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 356,
+    "name": "Паркинсонолог",
+    "description": null,
+    "alias": "parkinsonolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 339,
+    "name": "Патолог",
+    "description": null,
+    "alias": "patolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 302,
+    "name": "Патопсихолог",
+    "description": null,
+    "alias": "patopsiholog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 64,
+    "name": "Педиатр",
+    "description": null,
+    "alias": "pediatr",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 74,
+    "name": "Пластический хирург",
+    "description": null,
+    "alias": "plasticheskij-hirurg",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 103,
+    "name": "Подиатр",
+    "description": null,
+    "alias": "podiatr",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 287,
+    "name": "Подолог",
+    "description": null,
+    "alias": "podolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 13,
+    "name": "Проктолог",
+    "description": null,
+    "alias": "proktolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 46,
+    "name": "Профпатолог",
+    "description": null,
+    "alias": "profpatolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 301,
+    "name": "Процедуры: Промывание носа, МПЖ, Кавитар. УЗОЛ, ЭКГ, Лазер",
+    "description": null,
+    "alias": "procedury-promyvanie-nosa",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 32,
+    "name": "Психиатр",
+    "description": null,
+    "alias": "psihiatr",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 306,
+    "name": "Психиатр-нарколог",
+    "description": null,
+    "alias": "psihiatr-narkolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 303,
+    "name": "Психоаналитик",
+    "description": null,
+    "alias": "psihoanalitik",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 73,
+    "name": "Психолог",
+    "description": null,
+    "alias": "psiholog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 98,
+    "name": "Психоневропатолог",
+    "description": null,
+    "alias": "psihonevropatolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 35,
+    "name": "Психотерапевт",
+    "description": null,
+    "alias": "psihoterapevt",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 82,
+    "name": "Пульмонолог",
+    "description": null,
+    "alias": "pulmonolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 132,
+    "name": "Радиолог",
+    "description": null,
+    "alias": "radiolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 116,
+    "name": "Реабилитолог",
+    "description": null,
+    "alias": "reabilitolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 66,
+    "name": "Реаниматолог",
+    "description": null,
+    "alias": "reanimatolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 77,
+    "name": "Ревматолог",
+    "description": null,
+    "alias": "revmatolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 352,
+    "name": "Реконструктивный хирург",
+    "description": null,
+    "alias": "rekonstruktivnyj-hirurg",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 31,
+    "name": "Рентгенолог",
+    "description": null,
+    "alias": "rentgenolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 308,
+    "name": "Рентгенолог КТ",
+    "description": null,
+    "alias": "rentgenolog-kt",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 307,
+    "name": "Рентгенолог МРТ",
+    "description": null,
+    "alias": "rentgenolog-mrt",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 113,
+    "name": "Репродуктолог",
+    "description": null,
+    "alias": "reproduktolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 344,
+    "name": "Ретинолог",
+    "description": null,
+    "alias": "retinolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 41,
+    "name": "Рефлексотерапевт",
+    "description": null,
+    "alias": "refleksoterapevt",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 350,
+    "name": "Рефракционный хирург",
+    "description": null,
+    "alias": "refrakcionnyj-hirurg",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 33,
+    "name": "Сексолог",
+    "description": null,
+    "alias": "seksolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 80,
+    "name": "Сексопатолог",
+    "description": null,
+    "alias": "seksopatolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 60,
+    "name": "Семейный врач",
+    "description": null,
+    "alias": "semejnyj-vrach",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 124,
+    "name": "Сердечно-сосудистый хирург",
+    "description": null,
+    "alias": "serdechno-sosudistyj-hirurg",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 105,
+    "name": "Сомнолог",
+    "description": null,
+    "alias": "somnolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 156,
+    "name": "Специалист по грудному вскармливанию",
+    "description": null,
+    "alias": "specialist-po-grudnomu-vskarmlivaniyu",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 343,
+    "name": "Специалист по телу",
+    "description": null,
+    "alias": "specialist-po-telu",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 43,
+    "name": "Спортивный врач",
+    "description": null,
+    "alias": "sportivnyj-vrach",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 133,
+    "name": "Стоматолог",
+    "description": null,
+    "alias": "stomatolog",
+    "isDental": true,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 249,
+    "name": "Стоматолог-имплантолог",
+    "description": null,
+    "alias": "dentist-implantologist",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 16,
+    "name": "Стоматолог-ортодонт",
+    "description": null,
+    "alias": "stomatolog-ortodont",
+    "isDental": true,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 7,
+    "name": "Стоматолог-ортопед",
+    "description": null,
+    "alias": "stomatolog-ortoped",
+    "isDental": true,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 18,
+    "name": "Стоматолог-пародонтолог",
+    "description": null,
+    "alias": "stomatolog-parodontolog",
+    "isDental": true,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 3,
+    "name": "Стоматолог-терапевт",
+    "description": null,
+    "alias": "stomatolog-terapevt",
+    "isDental": true,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 2,
+    "name": "Стоматолог-хирург",
+    "description": null,
+    "alias": "stomatolog-hirurg",
+    "isDental": true,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 87,
+    "name": "Сурдолог",
+    "description": null,
+    "alias": "surdolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 23,
+    "name": "Терапевт",
+    "description": null,
+    "alias": "terapevt",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 340,
+    "name": "Терапевт-пульмонолог",
+    "description": null,
+    "alias": "terapevt-pulmonolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 89,
+    "name": "Торакальный хирург",
+    "description": null,
+    "alias": "torakalnyj-hirurg",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 26,
+    "name": "Травматолог",
+    "description": null,
+    "alias": "travmatolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 166,
+    "name": "Травматолог-ортопед",
+    "description": null,
+    "alias": "travmatolog-ortoped",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 91,
+    "name": "Трансфузиолог",
+    "description": null,
+    "alias": "transfuziolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 76,
+    "name": "Трихолог",
+    "description": null,
+    "alias": "triholog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 57,
+    "name": "Уролог",
+    "description": null,
+    "alias": "urolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 162,
+    "name": "Уролог-андролог",
+    "description": null,
+    "alias": "urolog-androlog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 330,
+    "name": "Фельдшер",
+    "description": null,
+    "alias": "feldsher",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 54,
+    "name": "Физиотерапевт",
+    "description": null,
+    "alias": "fizioterapevt",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 107,
+    "name": "Фитотерапевт",
+    "description": null,
+    "alias": "fitoterapevt",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 17,
+    "name": "Флеболог",
+    "description": null,
+    "alias": "flebolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 118,
+    "name": "Фониатр",
+    "description": null,
+    "alias": "foniatr",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 366,
+    "name": "Фонопед",
+    "description": null,
+    "alias": "fonoped",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 104,
+    "name": "Фтизиатр",
+    "description": null,
+    "alias": "ftiziatr",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 282,
+    "name": "Химиотерапевт",
+    "description": null,
+    "alias": "himioterapevt",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 30,
+    "name": "Хирург",
+    "description": null,
+    "alias": "hirurg",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 159,
+    "name": "Хирург-имплантолог",
+    "description": null,
+    "alias": "hirurg-implantolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 300,
+    "name": "Хирург кистевой",
+    "description": null,
+    "alias": "hirurg-kistevoj",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 125,
+    "name": "Челюстно-лицевой хирург",
+    "description": null,
+    "alias": "cheljustno-licevoj-hirurg",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 115,
+    "name": "Эмбриолог",
+    "description": null,
+    "alias": "embriolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 283,
+    "name": "Эндодонтист",
+    "description": null,
+    "alias": "endodontist",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 45,
+    "name": "Эндокринолог",
+    "description": null,
+    "alias": "endokrinolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 42,
+    "name": "Эндоскопист",
+    "description": null,
+    "alias": "endoskopist",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 286,
+    "name": "Эндоскопический хирург",
+    "description": null,
+    "alias": "endoskopicheskiy-hirurg",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 99,
+    "name": "Эпидемиолог",
+    "description": null,
+    "alias": "epidemiolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  },
+  {
+    "id": 109,
+    "name": "Эпилептолог",
+    "description": null,
+    "alias": "epileptolog",
+    "isDental": false,
+    "__typename": "DoctorSpecialization"
+  }
+]
