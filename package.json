@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate-mock-data": "ts-node ./src/mocks/generate-mock-data.ts",
-    "start": "ts-node ./src/main.ts"
+    "start": "ts-node ./src/main.ts",
+    "start-simple": "ts-node ./src/simple.ts"
   },
   "keywords": [],
   "author": "",

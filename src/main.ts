@@ -9,8 +9,8 @@ if (!cronSchedule) throw new Error("Schedule cron expression not specified");
 if (!cron.validate(cronSchedule)) throw new Error("Schedule cron expression is invalid");
 
 import BirthdayNotificationBot from "./BirthdayNotificationBot";
-import { Api, FetchApi, MockApi } from "./api";
-import { SlackNotifier, MockNotifier, Notifier } from "./notifiers";
+import { FetchApi, MockApi } from "./api";
+import { SlackNotifier, MockNotifier } from "./notifiers";
 
 function getApi() {
     if (process.argv.includes("--mock-api")) {
