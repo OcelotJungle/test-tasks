@@ -26,6 +26,8 @@ class ParaphraserPhraseComparer extends PhraseComparer {
         type = Type.Vector,
         format = "json"
     ) {
+        super();
+        
         this.#token = token;
         this.#lang = lang;
         this.#type = type;
@@ -35,10 +37,14 @@ class ParaphraserPhraseComparer extends PhraseComparer {
     }
 
     async compare(phraseA = "", phraseB = "") {
-        const data = this.#getResponseData(phraseA, phraseB);
-        const response = await axios.post(this.#url, { data });
-
-        return this.#getScore(response.data);
+        try {
+            const data = this.#getResponseData(phraseA, phraseB);
+            const response = await axios.get(this.#url, { params: data });
+    
+            return this.#getScore(response.data);
+        } catch(e) {
+            return 0;
+        }
     }
 
     #getResponseData(phraseA = "", phraseB = "") {
@@ -48,8 +54,14 @@ class ParaphraserPhraseComparer extends PhraseComparer {
             type: this.#type,
             lang: this.#lang,
             format: this.#format,
-            query: `${phraseA};${phraseB}`,
+            query: `${this.#normalizePhrase(phraseA)};${this.#normalizePhrase(phraseB)}`.slice(0, 90),
         };
+    }
+
+    #normalizePhrase(phrase = "") {
+        return phrase
+            .replace(/[^А-Яа-яЁё\s]/gu, " ")
+            .replace(/\s+/g, " ");
     }
 
     #getScore(data = {}) {
