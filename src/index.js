@@ -11,16 +11,26 @@ import {
 
 const argv = minimist(process.argv.slice(2));
 
+const {
+    DOCTORS_URI,
+    SERVICES_URI,
+    PHRASE_COMPARISON_SCORE_THRESHOLD
+} = process.env;
+
+if(!DOCTORS_URI) throw new Error("Doctors uri is not defined");
+if(!SERVICES_URI) throw new Error("Services uri is not defined");
+if(!PHRASE_COMPARISON_SCORE_THRESHOLD) throw new Error("Phrase comparison score threshold uri is not defined");
+
 async function main() {
     const dataLoader = DataLoaderFactory.create(argv.loader);
     const jsonParser = ParserFactory.create(ParserType.Json);
     const newlineParser = ParserFactory.create(ParserType.Newline);
 
-    const doctors = await loadAndParse(process.env.DOCTORS_URI, dataLoader, jsonParser);
-    const services = await loadAndParse(process.env.SERVICES_URI, dataLoader, newlineParser);
+    const doctors = await loadAndParse(DOCTORS_URI, dataLoader, jsonParser);
+    const services = await loadAndParse(SERVICES_URI, dataLoader, newlineParser);
 
     const phraseComparer = PhraseComparerFactory.create(argv.comparer);
-    const scoreThreshold = Number(process.env.PHRASE_COMPARISON_SCORE_THRESHOLD);
+    const scoreThreshold = Number(PHRASE_COMPARISON_SCORE_THRESHOLD);
 
     const mappings = new Map();
 
