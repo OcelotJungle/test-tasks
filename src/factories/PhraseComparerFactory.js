@@ -4,11 +4,11 @@ import {
 } from "../phrase-comparers/index.js";
 
 const PhraseComparerType = {
-    Paraphraser: 0,
+    Paraphraser: "paraphraser",
 }
 
 class PhraseComparerFactory {
-    static create(type = -1) {
+    static create(type = "") {
         switch(type) {
             case PhraseComparerType.Paraphraser:
                 return new ParaphraserPhraseComparer(
