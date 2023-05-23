@@ -21,4 +21,4 @@ class ParserFactory {
     }
 }
 
-export default ParserFactory;
+export { ParserFactory as default, ParserType };

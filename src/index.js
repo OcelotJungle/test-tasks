@@ -2,14 +2,19 @@ import dotenv from "dotenv";
 dotenv.config();
 
 import minimist from "minimist";
-import { DataLoaderFactory, ParserFactory, PhraseComparerFactory } from "./factories/index.js";
+import {
+    DataLoaderFactory,
+    ParserFactory,
+    ParserType,
+    PhraseComparerFactory
+} from "./factories/index.js";
 
 const argv = minimist(process.argv.slice(2));
 
 async function main() {
     const dataLoader = DataLoaderFactory.create(argv.loader);
-    const jsonParser = ParserFactory.create("json");
-    const newlineParser = ParserFactory.create("newline");
+    const jsonParser = ParserFactory.create(ParserType.Json);
+    const newlineParser = ParserFactory.create(ParserType.Newline);
 
     const doctors = await loadAndParse(process.env.DOCTORS_URI, dataLoader, jsonParser);
     const services = await loadAndParse(process.env.SERVICES_URI, dataLoader, newlineParser);
